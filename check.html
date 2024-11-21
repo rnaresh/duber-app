@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script>
-        const WM_APPS_META = {
-            porting_eligibility_check: {
-                apiUrl: "https://att-mvno.onwavemaker.com/"
-            }
-        }
-    </script>
-     
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check Eligibility</title>
-    <link rel="stylesheet" href="check-styles.css">
+	<script>
+		const WM_APPS_META = {
+			porting_eligibility_check: {
+				apiUrl: "https://att-mvno.onwavemaker.com/"
+			}
+		}
+	</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Check Eligibility</title>
+	<link rel="stylesheet" href="check-styles.css">
 </head>
+
 <body>
 
 
 	<nav class="uber-nav">
-		
+
 		<ul class="nav-items">
 			<li class="brand">
-				<a data-baseweb="link" href="/"
-                                                                      target="_self" aria-label="Go to Uber.com"
-                                                                      data-tracking-name="_79e70995-edbc-4fed-b2ca-3904aba7ac2d_logo.link_cta152"
-                                                                      class="css-bLZDAV">Uber</a>
+				<a data-baseweb="link" href="/" target="_self" aria-label="Go to Uber.com"
+					data-tracking-name="_79e70995-edbc-4fed-b2ca-3904aba7ac2d_logo.link_cta152"
+					class="css-bLZDAV">Uber</a>
 			</li>
 			<li>
 				<a href="">Ride</a>
@@ -43,7 +44,7 @@
 				<svg width="18" height="18" viewBox="0 0 24 24" fill="white">
 					<path d="M18 8v3.8l-6 4.6-6-4.6V8l6 4.6L18 8Z" fill="white"></path>
 				</svg>
-				
+
 			</li>
 			<li>
 				<a href="">More</a>
@@ -56,7 +57,9 @@
 		<ul class="nav-items">
 			<li>
 				<svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-					<path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z" fill="white"></path>
+					<path
+						d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z"
+						fill="white"></path>
 				</svg>
 				<a href="">EN</a>
 			</li>
@@ -66,14 +69,14 @@
 			<li>
 				<a href="">Login</a>
 			</li>
-				<button class="sign-up-btn">Sign up</button>
+			<button class="sign-up-btn">Sign up</button>
 		</ul>
 
 
 	</nav>
 
-    <div class="App">
-        <!-- <header class="header">
+	<div class="App">
+		<!-- <header class="header">
 			<div class="logo col-md-3">
 			<img src="images/turbo-mobiles-images/logo-white.svg" alt="logo"/>
 			</div>
@@ -93,26 +96,51 @@
 			</nav>
 		</header> -->
 
-        <section class="hero">
+		<section class="hero">
 			<div class="hero-content">
 				<h1>Upgrade to a better network while keeping your current number.</h1>
 				<p>Find, compare and choose your perfect plan</p>
 				<div class="input-container">
 					<div class="wm-app">
-						<wm-porting_eligibility_check></wm-porting_eligibility_check>
+						<wm-porting_eligibility_check id="wm-prefab"><wm-porting_eligibility_check>
 					</div>
 				</div>
 			</div>
 			<div class="hero-image">
-				<img src="images/turbo-mobiles-images/phone.png" alt="Phone"/>
+				<img src="images/turbo-mobiles-images/phone.png" alt="Phone" />
 			</div>
 			<!-- <Modal show={showModal} onClose={handleCloseModal} phoneNumber={phoneNumber}/> -->
 
 		</section>
 
-      </div>
-    
-    <script src="http://localhost:9098/wm-element.js"></script>
-    <script src="http://localhost:9098/wm-porting_eligibility_check.js"></script>
+	</div>
+
+	<script src="http://localhost:9098/wm-element.js"></script>
+	<script src="http://localhost:9098/wm-porting_eligibility_check.js"></script>
+	<script>
+		$(window).bind("load", function () {
+			$.ajax({
+				url: 'http://deimos-cloud.wavemakeronline.com/pkgpfszdsrml/MVNO_Shell/services/getTMF761AuthToken/oauth2/v2.0/token?sub.claim.partner=secure&grant_type=client_credentials&scope=api%3A%2F%2F49a40264-9e70-47b0-9c1a-f5e7421f6573%2F.default&client_secret=testSecret&client_id=testClient',
+				type: 'GET',
+				contentType: 'application/json',
+				headers: {
+					'Accept': 'application/json, text/plain, */*',
+					'Accept-Encoding': 'gzip, deflate',
+					'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8',
+					'Cache-Control': 'no-cache',
+					'Pragma': 'no-cache',
+					'X-Requested-With': 'XMLHttpRequest'
+				},
+				success: function (response) {
+					console.log('Success ', response.auth_token);
+					$("#wm-prefab").attr("requesttoken", response.auth_token);
+				},
+				error: function (error) {
+					console.error('Error ', error);
+				}
+			})
+		});
+	</script>
 </body>
+
 </html>
