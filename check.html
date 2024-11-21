@@ -102,7 +102,21 @@
 				<p>Find, compare and choose your perfect plan</p>
 				<div class="input-container">
 					<div class="wm-app">
-						<wm-porting_eligibility_check id="wm-prefab"><wm-porting_eligibility_check>
+						<wm-porting_eligibility_check id="wm-prefab" 
+						wmPrefab redrawable data-role="prefab"  prefabname="Porting_Eligibility_Check" 
+						formsubmit.event="Widgets.portingConfirmDialog.open()" 
+						eligibilityformsubmit.event="Porting_Eligibility_CheckEligibilityformsubmit($event, $data)" 
+						name="Porting_Eligibility_Check2" showsuccesspopup="true" 
+						popupoptionsclick.event="Actions.goToPage_BringYourOwnPhone.invoke()" 
+						portingsuccess.event="Actions.goToPage_BringYourOwnPhone.invoke()" 
+						enablebringyourownphonejourney="true" enableshopphonejourney="true" 
+						bringyourownphoneclick.event="Porting_Eligibility_Check2Bringyourownphoneclick($event, $data)" 
+						confirmationdialogastoaster="Popup" enableconfirmationdialog="true" clientid="123456" 
+						load.event="Variables.wsTMF761AuthToken.invoke()" class="app-prefab porting-eligibility" 
+						checkstatusclick.event="Actions.naGotoPageOrders.invoke()" 
+						requesttoken="" 
+							>
+						</wm-porting_eligibility_check>
 					</div>
 				</div>
 			</div>
@@ -117,6 +131,7 @@
 
 	<script src="http://localhost:9098/wm-element.js"></script>
 	<script src="http://localhost:9098/wm-porting_eligibility_check.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script>
 		$(window).bind("load", function () {
 			$.ajax({

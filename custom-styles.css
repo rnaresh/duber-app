@@ -1,0 +1,217 @@
+/* header */
+.app-header-container{
+    display: none;
+}
+
+
+
+/* home */
+.app-livelist-container.clearfix.app-horizontal-list.list-group {
+    overflow: hidden !important;
+}
+
+[name="container6"] {
+    /* border: 1px solid black; */
+    /* box-shadow: 10px 10px; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+[name="stvPortingEligibilityForm1"] {
+    margin-bottom: 0px;
+}
+
+.h1.font-semibold {
+    line-height: normal;
+}
+
+
+
+
+
+/* bring your own phone */
+.panel-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-textbox {
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+.app-input-wrapper {
+    width: 100%;
+}
+
+.form-elements {
+    width: 100%;
+}
+
+.basic-btn-grp {
+    width: 25%;
+}
+
+.panel-footer>button {
+    padding: 10px !important;
+    background-color: #5b89db;
+    color: white !important;
+}
+
+.panel-footer>button:hover {
+    background-color: #3B71CA;
+}
+
+.panel-footer {
+    width: 25% !important;
+}
+
+.app-livelist-container.clearfix.app-horizontal-list.list-group.options-list {
+    overflow: hidden;
+    margin-top: -40px;
+}
+
+.app-prefab.imei-check {
+    margin-top: 0px !important;
+}
+
+.app-card.card.app-panel {
+    cursor: pointer;
+}
+
+.app-label.text-muted {
+    color: black !important;
+}
+
+[name="gridrow13_1"] {
+    display: none;
+}
+
+
+.app-card-content.card-body.card-block:hover {
+    /* border: 1px solid black; */
+    background-color: white;
+    /* box-shadow: 10px 10px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    ;
+}
+
+
+.app-container.page-banner-content{
+    padding-bottom: 0px !important;
+}
+
+
+
+
+
+
+/* plans */
+.on-banner {
+    margin-top: 0px !important;
+}
+
+.app-container .plan-footer>button {
+    background-color: #5b89db !important;
+    color: white;
+    font-weight: 500;
+}
+
+.app-container .plan-footer>button:hover {
+    background-color: #3B71CA !important;
+}
+
+.app-label .text-muted .inline {
+    color: black;
+}
+
+.app-label.text-plan-name {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text-plan-price {
+    color: #dc3545;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.app-label.h4.inline.font-semibold {
+    color: black;
+    font-weight: bold;
+}
+
+
+.app-list-item.list-group-item.col-xs-12.col-sm-4.col-md-4.col-lg-4 {
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+
+.app-label.text-muted.inline {
+    color: black;
+}
+
+
+
+.app-dialog-body.modal-body{
+    width: 100%;
+}
+
+
+
+
+/* sign in prefab */
+app-prefab-sign_in{
+    width: 100%;
+}
+
+[name="stvLoginFormForm1"]>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+[name="labelSignin"]{
+    color: black !important;
+    font-size: x-large;
+}
+
+
+.basic-btn-grp.form-action.panel-footer.clearfix:has([aria-label="SIGN IN"]){
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+[name="save"]{
+    margin: 0px !important;
+}
+
+
+[name="email_formWidget"], [name="password_formWidget"]{
+    margin-top: 0px !important;
+    text-align: start !important;
+}
+
+[aria-label="SIGN IN"]{
+    margin-top: 10px !important;
+}
+
+[name="gridcolumn13"]{
+    text-align: left !important;
+}
+
+[name="picture5"]{
+    height: 40px;
+    margin-top: 0px !important;
+}
+
+[name="gridcolumn13_1"]{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
